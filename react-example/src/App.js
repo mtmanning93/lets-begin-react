@@ -12,7 +12,7 @@ function App() {
       {/* <FunctionalGreetingWithProps greeting="Nice to meet you!" name="Matt" age="30" /> */}
       {/* <StatefulGreeting greeting="Im a stateful class component" name="Bob" /> */}
       {/* <StatefulGreetingWithCallback greeting="Im a stateful class component" name="Bob" /> */}
-      <StatefulGreetingWithPrevState greeting="Im a stateful class component" name="Bob" />
+      <StatefulGreetingWithPrevState />
     </div>
   );
 }

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-export class ConditionalRenderingClass extends Component {
+export class NestingComponents extends Component {
     constructor(props) {
       super(props)
     
       this.state = {
-         isLoaded: false,
+         isLoaded: true,
          isLoggedIn: true
       }
     }
@@ -29,4 +29,4 @@ export class ConditionalRenderingClass extends Component {
     }
 }
 
-export default ConditionalRenderingClass
+export default NestingComponents

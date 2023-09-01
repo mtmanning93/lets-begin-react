@@ -9,8 +9,15 @@ class EventBinding extends React.Component {
             buttonText: "Exit",
         };
     }
-    
-    handleClick() {
+    // Original function
+    // handleClick = () => {
+    //     this.setState({
+    //         introduction: "Goodbye!",
+    //     });
+    //     console.log(this.state.introduction);
+    // }
+    // Altered to arrow function
+    handleClick = () => {
         this.setState({
             introduction: "Goodbye!",
         });
@@ -23,7 +30,9 @@ class EventBinding extends React.Component {
                 <h1>
                     {this.state.introduction} {this.props.greeting}
                 </h1>
-                <button onClick={() => this.handleClick()}>
+                {/* original */}
+                {/* <button onClick={() => this.handleClick()}></button> */}
+                <button onClick={this.handleClick}>
                     {this.state.buttonText}
                 </button>
             </div>

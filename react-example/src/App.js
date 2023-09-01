@@ -5,8 +5,9 @@ import './App.css';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
-import EventFunctional from './components/EventFunctional';
-import EventClass from './components/EventClass';
+// import EventFunctional from './components/EventFunctional';
+// import EventClass from './components/EventClass';
+import EventBinding from './components/EventBinding';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       {/* <StatefulGreeting greeting="Im a stateful class component" name="Bob" /> */}
       {/* <StatefulGreetingWithCallback greeting="Im a stateful class component" name="Bob" /> */}
       {/* <StatefulGreetingWithPrevState /> */}
-      <EventFunctional />
-      <EventClass />
+      {/* <EventFunctional /> */}
+      {/* <EventClass /> */}
+      <EventBinding />
     </div>
   );
 }

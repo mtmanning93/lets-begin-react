@@ -7,7 +7,7 @@ import './App.css';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 // import EventFunctional from './components/EventFunctional';
 // import EventClass from './components/EventClass';
-import EventBinding from './components/EventBinding';
+// import EventBinding from './components/EventBinding';
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
       {/* <StatefulGreetingWithPrevState /> */}
       {/* <EventFunctional /> */}
       {/* <EventClass /> */}
-      <EventBinding />
+      {/* <EventBinding /> */}
+      
     </div>
   );
 }

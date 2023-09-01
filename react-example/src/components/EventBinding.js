@@ -8,6 +8,8 @@ class EventBinding extends React.Component {
             introduction: "Hello!",
             buttonText: "Exit",
         };
+        // bind in the constructor (better for performance in larger apps)
+        // this.handleClick = this.handleClick.bind(this)
     }
     // Original function
     // handleClick = () => {
@@ -32,6 +34,8 @@ class EventBinding extends React.Component {
                 </h1>
                 {/* original */}
                 {/* <button onClick={() => this.handleClick()}></button> */}
+                {/* bind on the handler */}
+                {/* <button onClick={this.handleClick.bind(this)}> */}
                 <button onClick={this.handleClick}>
                     {this.state.buttonText}
                 </button>
